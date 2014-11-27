@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name     = 'JSBadgeView'
-  s.version  = '1.4'
+  s.version  = '1.4.1'
   s.platform = :ios
   s.license  = 'MIT'
   s.summary  = 'Customizable UIKit badge view like the one on applications in the iOS springboard.'
   s.homepage = 'https://github.com/JaviSoto/JSBadgeView'
   s.author   = { 'Javier Soto' => 'ios@javisoto.es' }
-  s.source   = { :git => 'https://github.com/JaviSoto/JSBadgeView.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/bezigon/JSBadgeView.git', :tag => s.version.to_s }
 
   s.description = 'Customizable UIKit badge view like the one on applications in the iOS springboard. Very optimized for performance: drawn entirely using CoreGraphics.'
 
